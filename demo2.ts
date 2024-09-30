@@ -4,9 +4,10 @@ function Hello(name) {
 }
 Hello('Peter');
 // Hàm tính hai số 
-function Sum(a, b) {
-    return a + b;
+let tong = 5;
+function Sum(b) {
+    return tong + b;
 }
-let s = Sum(5, 10);
-console.log(s);
 
+tong = Sum(10);
+console.log(tong);
