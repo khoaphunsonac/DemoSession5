@@ -12,4 +12,3 @@ let numbers = [-13, 82, 16, -85, -31, 90, 16, 14, -23, 28, -96, -21, 21, 8, -62,
 
 console.log("Liệt kê các số âm!");
 listNegativeNumber(numbers);
-
