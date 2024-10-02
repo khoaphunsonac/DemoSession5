@@ -3,6 +3,11 @@ function add(a, b) {
     return result;
 }
 
+function isEven(number) {
+    if (number % 2 == 0) return true;
+    return false;
+}
+
 let sum = add(5, 10);
 console.log(sum);
 
